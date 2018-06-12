@@ -1,0 +1,269 @@
+    @media screen and (max-width: 3000px) {
+        body{
+            width: 64em;
+        }
+
+    }
+
+    @media screen and (max-width: 1100px) {
+        body{
+            width: 35em;
+        }
+    }
+
+@media screen and (max-width: 650px) {
+        body{
+            width: 18em;
+        }
+    
+    }
+
+/*ALGEMEEN
+    Standaard*/
+
+* {
+    padding: 0;
+}
+
+body {
+    text-align: justify;
+    margin: auto;
+    background-color: #daffb3;
+    font-family: Optima;
+    font-size: 1.0em;
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: darkslateblue;
+    width: 20%;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+    padding: 0.2em;
+    border-bottom: 0.05em solid darkslateblue;
+    border-top: 0.05em solid darkslateblue;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+#current {
+    font-weight: bold;
+}
+
+
+/*Menubalk*/
+
+header #logo img {
+    width: 200px;
+    height: auto;
+    border: 0px;
+    float: none;
+    margin-top: 1em;
+}
+
+header nav {
+    text-align: center;
+    margin-top: 1em;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 0em 0em 0em 0.8em;
+    border-left: 0.1em solid darkslateblue;
+    text-decoration: none;
+    margin: 0.3em;
+}
+
+
+header nav li a:link {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: lightblue;
+}
+
+header .firstpage a{
+  border-left: none;
+}
+
+
+/*Inhoud van de pagina*/
+
+.titels {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.titels li {
+    display: inline;
+    padding: 0em 0.38em 0em .48em;
+    border-left: 0.1em solid darkslateblue;
+    text-decoration: none;
+    margin: 0.03em;
+    margin-top: 1em;
+}
+
+.titels .firsttitle {
+    border-left: none;
+}
+
+
+
+/*Alignment*/
+
+.rechts {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/*Tussenruimte*/
+
+h3 {
+    margin-top: 5em;
+}
+
+
+/*Quote*/
+
+.quote {
+    font-style: italic;
+}
+
+
+/*INDEX
+    Ploegfoto*/
+
+#ploegfoto {
+    width: 100%;
+    height: inherit;
+    border: 0px;
+}
+
+
+/*ACTIVITEITEN
+    Banners*/
+
+.classsubbanner {
+    margin-top: 9em;
+    width: 100%;
+    height: inherit;
+    border: 0px;
+}
+
+
+/*Tussenruimte*/
+
+.activiteit {
+    margin-top: 1.5em;
+}
+
+.inschrijving {
+    margin-top: 3em;
+}
+
+
+/*Overzicht*/
+
+table {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-spacing: 20px;
+    margin-top: 2em;
+}
+
+thead {
+    font-weight: bold;
+}
+
+
+/*Google Calendar*/
+
+#google {
+    margin-top: 10em;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+fieldset legend {
+    margin: 0px;
+    padding-top: 15px;
+}
+
+
+/*PLOEG
+    Presidiumlid*/
+
+img {
+    height: 80px;
+    width: 80px;
+    border: 3px solid black;
+}
+
+
+/*CAMPAGNE
+    Iconen*/
+
+.icon {
+    height: 40px;
+    width: 40px;
+    float: right;
+    border: 0px;
+}
+
+.firstline {
+    margin-top: 2em;
+}
+
+
+/*SPONSORS
+    Sponsorlogo's*/
+
+.sponsor {
+    width: 6em;
+    height: inherit;
+    border: 0px;
+}
